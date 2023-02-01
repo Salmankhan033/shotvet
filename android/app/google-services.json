@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "875455428643",
+    "project_id": "shotvet-chat",
+    "storage_bucket": "shotvet-chat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875455428643:android:f130d8f01675d8e4009996",
+        "android_client_info": {
+          "package_name": "com.shotvet.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "875455428643-6amnpfk7luumgs4jr2dhni28a49guv4a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4XF-T7y33S5Wl5_qWU8omCz7BNTa47ZQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "875455428643-6amnpfk7luumgs4jr2dhni28a49guv4a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "875455428643-ij63qbfvtmhmvp7rl42hq5rpbf783mss.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "chat.shotvet.chat"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
