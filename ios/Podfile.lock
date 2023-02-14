@@ -491,7 +491,7 @@ PODS:
     - React
   - rn-fetch-blob (0.12.0):
     - React-Core
-  - RNBootSplash (4.4.2):
+  - RNBootSplash (4.5.0):
     - React-Core
   - RNCAsyncStorage (1.17.11):
     - React-Core
@@ -972,7 +972,7 @@ SPEC CHECKSUMS:
   ReactNativeUiLib: cde7263a7d308b60161cd286f95c9433e79f2f7d
   rn-extensions-share: 5fd84a80e6594706f0dfa1884f2d6d591b382cf5
   rn-fetch-blob: f065bb7ab7fb48dd002629f8bdcb0336602d3cba
-  RNBootSplash: b2014890e22f0b4895ed07ff4aebd52b63ade449
+  RNBootSplash: 364ec0f6a61d96bce40e8630d80d949c214a5749
   RNCAsyncStorage: 8616bd5a58af409453ea4e1b246521bb76578d60
   RNCClipboard: 2834e1c4af68697089cdd455ee4a4cdd198fa7dd
   RNCMaskedView: bc0170f389056201c82a55e242e5d90070e18e5a

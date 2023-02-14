@@ -118,7 +118,7 @@ const SettingsView = (): React.ReactElement => {
 	const sendEmail = async () => {
 		logEvent(events.SE_CONTACT_US);
 		const subject = encodeURI('Shotvet Chat Mobile App Support');
-		const email = encodeURI('rob.evers@shotvet.org');
+		const email = encodeURI('pharmacy@shotvet.com');
 		const description = encodeURI(`
 			version: ${getReadableVersion}
 			device: ${getDeviceModel}
@@ -127,7 +127,7 @@ const SettingsView = (): React.ReactElement => {
 			await Linking.openURL(`mailto:${email}?subject=${subject}&body=${description}`);
 		} catch (e) {
 			logEvent(events.SE_CONTACT_US_F);
-			showErrorAlert(I18n.t('error-email-send-failed', { message: 'rob.evers@shotvet.org' }));
+			showErrorAlert(I18n.t('error-email-send-failed', { message: 'pharmacy@shotvet.com' }));
 		}
 	};
 
@@ -202,11 +202,11 @@ const SettingsView = (): React.ReactElement => {
 						testID='settings-view-language'
 					/>
 					<List.Separator />
-					{!isFDroidBuild ? (
+					{/* {!isFDroidBuild ? (
 						<>
 							<List.Item title='Review_this_app' showActionIndicator onPress={onReviewPress} testID='settings-view-review-app' />
 						</>
-					) : null}
+					) : null} */}
 					<List.Separator />
 					<List.Item title='Share_this_app' showActionIndicator onPress={shareApp} testID='settings-view-share-app' />
 					<List.Separator />

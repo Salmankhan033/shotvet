@@ -28,7 +28,7 @@ const LegalView = ({ navigation }: ILegalViewProps): React.ReactElement => {
 		if (!server) {
 			return;
 		}
-		openLink(`${server}/${route}`, theme);
+		openLink(`https://www.shotvet.com/privacy-confidentiality/`, theme);
 	};
 
 	return (
