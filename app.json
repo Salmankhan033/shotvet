@@ -1,7 +1,7 @@
 {
 	"name": "RocketChatRN",
 	"share": "ShareRocketChatRN",
-	"displayName": "Shotvet Chat",
+	"displayName": "ShotVet Chat",
 	"server": "https://rocketchat.shotvet.com",
 	"appGroup": "group.ios.shotvet.chat",
 	"appStoreID": "1670342126"
