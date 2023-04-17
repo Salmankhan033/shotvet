@@ -160,7 +160,7 @@
 		"@rocket.chat/eslint-config": "^0.4.0",
 		"@storybook/addon-storyshots": "6.3",
 		"@storybook/react": "6.3",
-		"@storybook/react-native": "^6.0.1-beta.7",
+		"@storybook/react-native": "^6.5.3",
 		"@testing-library/jest-native": "^4.0.4",
 		"@testing-library/react-hooks": "^8.0.1",
 		"@testing-library/react-native": "^9.0.0",
